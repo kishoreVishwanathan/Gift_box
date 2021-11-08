@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="gitBox.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="mainHeading">
+        <h1 style="text-align: center;" class="heading"> WHIP-UP GIFT BOXES</h1>
+    </div>
+
+    <div class="center">
+        <input type="number" id="num" class="inputButton" required placeholder="Enter the number of gifts to generate">
+        <button type="submit" class="button" id="btn" onclick="getGeneratedGiftBoxes()">Generate</button>
+    </div>
+
+    <div class="center">
+        <div class="center" style="flex-direction: column;">
+            <div style="flex-direction: column;">
+                <h3>Generated gifts</h3>
+                <div class="git_box" id="gift_box"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

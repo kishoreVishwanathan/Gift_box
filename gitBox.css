@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(174, 248, 248);
+}
+.heading {
+    color: gold;
+    font-size: 50px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    margin-bottom: 10px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: greenyellow;
+}
+.inputButton {
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: rgb(248, 165, 206);
+    color: black;
+}
+.mainHeading {
+    margin-top: 100px;
+}
+.git_box {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    overflow: scroll;
+}
